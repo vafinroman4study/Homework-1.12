@@ -15,5 +15,14 @@ public class Main {
         System.out.println("bookJava.getPublishingYear() = " + bookJava.getPublishingYear());
         bookJava.setPublishingYear(2017);
         System.out.println("bookJava.getPublishingYear() = " + bookJava.getPublishingYear());
+
+        System.out.println("Метод toString:");
+        System.out.println(bookJava);
+        System.out.println("Метод equals:");
+        System.out.println(bookJava.equals(bookPlague));
+        System.out.println(bookJava.equals(bookJava));
+        System.out.println("Метод hashCode:");
+        System.out.println("bookJava.hashCode() = " + bookJava.hashCode());
+        System.out.println("burd.hashCode() = " + burd.hashCode());
     }
 }
